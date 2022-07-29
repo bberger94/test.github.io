@@ -1,5 +1,5 @@
 ---
 layout: archive
-permalink: /cv/
+permalink: /vitae/
 redirect_to: https://ben-berger.com/cv/cv.pdf
 ---
