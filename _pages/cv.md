@@ -7,3 +7,5 @@ redirect_from:
   - /resume
 redirect_to: https://ben-berger.com/cv/cv.pdf
 ---
+
+[Vitae](https://ben-berger.com/cv/cv.pdf)
