@@ -1,8 +1,5 @@
 ---
-layout: redirect
+layout: archive
 permalink: /cv/
-redirect_from:
-  - /resume
-redirect_to:
-  - https://ben-berger.com/cv/cv.pdf
+redirect_to: https://ben-berger.com/cv/cv.pdf
 ---
