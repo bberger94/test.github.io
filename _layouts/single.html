@@ -39,8 +39,13 @@ layout: default
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{page.semester}}
             {% if page.date_start == page.date_end %} {{ page.date_start | default: "1900-01-01" | date: "%Y" }}
             {% else %} {{ page.date_start | default: "1900-01-01" | date: "%Y" }} - {{ page.date_end | default: "1900-01-01" | date: "%Y" }} {% endif %}</p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ post.date_start | default: "1900-01-01" | date: "%Y" }} - {{ post.date_end | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          {% if page.coauthors %} <p><i>With {{ page.coauthors }}</i></p>
+          {% endif %}
+          {% if page.type != "jmp" and page.type != "wp" %} 
+          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% endif %}
+          <p>{{ page.abstract }}</p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}

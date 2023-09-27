@@ -1,0 +1,16 @@
+current directory: /Users/ben/Projects/website/new_site/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/Users/ben/.rbenv/versions/3.0.2/bin/ruby -I /Users/ben/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230913-36374-xwgpde.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/ben/Projects/website/new_site/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /Users/ben/Projects/website/new_site/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/ben/Projects/website/new_site/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= install
+/opt/homebrew/bin/ginstall -c -m 0755 unf_ext.bundle ./.gem.20230913-36374-kj0jgl

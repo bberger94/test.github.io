@@ -12,5 +12,21 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.type == "jmp" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Working Papers</h2>
+{% for post in site.publications reversed %}
+  {% if post.type == "wp" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Book Chapters</h2>
+{% for post in site.publications reversed %}
+  {% if post.type == "book_chapter" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
