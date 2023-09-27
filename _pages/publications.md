@@ -11,13 +11,13 @@ author_profile: true
 
 {% include base_path %}
 
+<h2>Working Papers</h2>
 {% for post in site.publications reversed %}
   {% if post.type == "jmp" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-<h2>Working Papers</h2>
 {% for post in site.publications reversed %}
   {% if post.type == "wp" %}
     {% include archive-single.html %}
