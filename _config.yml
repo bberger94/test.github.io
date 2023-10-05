@@ -7,8 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ben Berger"
-title_separator          : "-"
+title                    : ""
 name                     : &name "Ben Berger"
 description              : &description "academic website"
 url                      : https://bberger94.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
