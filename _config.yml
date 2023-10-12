@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : ""
 name                     : &name "Ben Berger"
-description              : &description "academic website"
+description              : &description "I am a Ph.D. Candidate in Public Policy at Harvard University and a National Science Foundation Graduate Research Fellow. My research focuses on how public policy shapes the development and use of innovative health care technologies."
 url                      : https://bberger94.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bberger94.github.io"
