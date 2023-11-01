@@ -28,7 +28,7 @@
 
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.paperurl }}">
+        <a href="{{ post.paperurl }}" target="_blank" onclick="_gaq.push(['_trackEvent','Download','PDF',this.href]);>
           {{ title }} <br>
           {% if post.type == "jmp" %}
             (Job Market Paper)
