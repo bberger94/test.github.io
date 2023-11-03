@@ -7,7 +7,7 @@ date: 2019-01-01
 coauthors: Nicholas Bagley, Amitabh Chandra, Craig Garthwaite, and Ariel D. Stern
 venue: 'Innovation Policy and the Economy'
 volume: 19
-paperurl: '../assets/pdf/papers/bagley_etal_2019.pdf'
+link: '../assets/pdf/papers/bagley_etal_2019.pdf'
 abstract: "On the thirty‑fifth anniversary of the adoption of the Orphan Drug Act (ODA), we describe the enormous changes in the markets for therapies for
 rare diseases that have emerged over recent decades. The most prominent example is the fact that the profit‑maximizing price of new orphan drugs
 appears to be greater today than it was in 1983. All else equal, this should reduce the threshold for research and development (R&D) investment in
