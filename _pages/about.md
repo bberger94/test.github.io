@@ -15,3 +15,20 @@ In my <a href="https://ben-berger.com/papers/bberger_jmp.pdf" target="_blank" on
 Prior to attending Harvard, I worked as a research assistant at the National Bureau of Economic Research. I received a B.A. in Economics and Mathematics from the University of Miami in 2016 (_magna cum laude_).
 
 I am on the 2023-24 job market.
+
+<style>
+  .committee-title {
+    margin-bottom: 5px; /* Adjust this value as needed to reduce vertical space */
+  }
+  ul {
+    margin-top: 0; /* Remove default top margin of ul */
+  }
+</style>
+
+<div class="committee-title"><strong>Committee:</strong></div>
+<ul>
+  <li>Amitabh Chandra (chair): <a href="mailto:achandra@hbs.edu">achandra@hbs.edu</a></li>
+  <li>Mark Shepard: <a href="mailto:mark_shepard@hks.harvard.edu">mark_shepard@hks.harvard.edu</a></li>
+  <li>David Cutler: <a href="mailto:dcutler@fas.harvard.edu">dcutler@fas.harvard.edu</a></li>
+</ul>
+
